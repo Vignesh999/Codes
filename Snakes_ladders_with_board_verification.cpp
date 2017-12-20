@@ -1,8 +1,3 @@
-/*Aditya Panda
-Roll CS1723
-Assignment 4
-Prog 2
-Snake Ladder Game*/
 #include <iostream>
 #include <cstdlib>
 #include <bits/stdc++.h>
@@ -169,24 +164,3 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
-
-
-/*
-using namespace std;
-typedef pair<int,int> point;
-
-      switch ( c ){
-           case 'A':cout << "No Movement";  break;
-           case 'D':cout << "MOVES TO " << plrs[pl_no];  break;
-           case 'I':cout << "CLIMBS UP DUE TO LADDER " << plrs[pl_no];  break;
-           case 'T':cout << "SLIPS DOWN DUE TO SNAKES MOUTH " << plrs[pl_no];  break;
-           default :cout << " No Movemnent";}}
-
-int die_outcome_generator()
-{
-	int lo=1;int hi=6;
-    int n = hi - lo + 1;
-    int i = rand() % n;
-    if (i < 0) i = -i;
-    return lo + i;
-}*/
